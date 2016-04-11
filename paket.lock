@@ -1,0 +1,7 @@
+NUGET
+  remote: http://www.nuget.org/api/v2
+  specs:
+    FAKE (4.24.3)
+    FSharp.Data (2.2.5)
+      Zlib.Portable (>= 1.10) - framework: portable-net40+sl50+wp80+win80
+    Zlib.Portable (1.11) - framework: portable-net40+sl50+wp80+win80
