@@ -8,7 +8,7 @@ all: bootstrap install build
 bootstrap:
 	mkdir -p ./.paket
 	mkdir -p ./tmp
-	wget https://www.nuget.org/api/v2/package/Paket -O paket.zip &&\
+	curl -L https://www.nuget.org/api/v2/package/Paket -o paket.zip &&\
 	unzip ./paket.zip -d ./tmp &&\
 	mv ./tmp/tools/paket.exe $(PAKET) &&\
 	rm -rf ./tmp
